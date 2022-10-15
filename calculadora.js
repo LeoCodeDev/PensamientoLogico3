@@ -5,21 +5,25 @@ let operador = prompt('Elija un Operador, +, -, * o /');
 function calculadora(numero1,numero2,operador){
     let resultado;
     switch(operador){
-        case operador == '+':
-            numero1 + numero2;
+        case '+':
+            resultado = numero1 + numero2;
+            console.log('Se ejecuta +')
             break;
-        case operador == '-':
-            numero1 - numero2;
+        case '-':
+            resultado = numero1 - numero2;
+            console.log('Se ejecuta -')
             break;
-        case operador == '*':
-            numero1 * numero2;
+        case '*':
+            resultado = numero1 * numero2;
+            console.log('Se ejecuta *')
             break;
-        case operador == '/':
-            numero1 / numero2;
+        case '/':
+            resultado = numero1 / numero2;
+            console.log('Se ejecuta /')
             break;
         default:
     }
-    console.log(resultado)
+    console.log(alert(resultado));
 }
 
 calculadora(num1,num2,operador);
