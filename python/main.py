@@ -8,4 +8,4 @@ resultadoResta = valor2 - valor1
 resultadoMultiplicaion = valor1 * valor2
 resultadoDivision = valor2 / valor1
 
-print(f'La suma es:{resultadoSuma}, La Resta es: {resultadoResta}, La multiplicacion es: {resultadoMultiplicaion} y la division es {resultadoDivision}')
+print(f'La suma es: {resultadoSuma}, La Resta es: {resultadoResta}, La multiplicacion es: {resultadoMultiplicaion} y la division es {resultadoDivision}')
